@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card{
+  border: 1px solid rgb(255, 255, 255);
+  width: 90vw;
+  height: 75vh;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.row{
+  display: flex;
+  align-items: flex-end;
+  height: 50%;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.basket{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: brown;
+}
+
+.running-area{
+  margin: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ball{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
